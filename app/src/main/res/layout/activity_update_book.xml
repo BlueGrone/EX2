@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextLibroId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book ID"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spinnerTema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/editTextAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author" />
+
+    <EditText
+        android:id="@+id/editTextCosto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cost"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextEdicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edition" />
+
+    <Button
+        android:id="@+id/buttonActualizarLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Book"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/buttonEliminarLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Book"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF6347" />
+</LinearLayout>
